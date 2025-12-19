@@ -1,26 +1,26 @@
 opencollection: 1.0.0
 info:
-  name: neeew11
+  name: Test_Workspace1
   type: workspace
 
 collections:
   - name: bruno-testbench
-    path: /Users/vedpr/Desktop/test data/v3.0.0 feature/bruno-testbench
-  - name: Test_  Colln1
-    path: collections/Test_  Colln1
-  - name: Test_data(coln,folder,req)
-    path: collections/Test_data(coln,folder,req)
-  - name: keycloak-client-credentials
-    path: /Users/vedpr/Desktop/test data/untitled folder 14/keycloak-client-credentials
+    path: ../../Desktop/test data/untitled folder 15/v3.0.0_test/bruno/packages/bruno-tests/collection
   - name: Sunshine Conversations API
     path: collections/Sunshine Conversations API
-  - name: teeest11
-    path: collections/teeest11
+  - name: Test API Collection v5
+    path: collections/Test API Collection v5
+  - name: testtitle1
+    path: collections/testtitle1
+  - name: keycloak-client-Implicit grant
+    path: ../../Desktop/test data/untitled folder 15/v3.0.0_test/keycloak-client-Implicit grant 1
+  - name: keycloak-client-credentials
+    path: ../../Desktop/test data/untitled folder 15/v3.0.0_test/keycloak-client-credentials 1
+  - name: keycloak-password-credentials
+    path: ../../Desktop/test data/untitled folder 15/v3.0.0_test/keycloak-password-credentials 1
+  - name: keycloak-authorization_code
+    path: ../../Desktop/test data/untitled folder 15/v3.0.0_test/keycloak-authorization_code
 
 specs:
-  - name: ttteeesstt
-    path: apispec/ttteeesstt.yaml
-  - name: OpenAPI_file
-    path: /Users/vedpr/Desktop/test data/OpenAPI_file.yaml
 
-docs: 'test11'
+docs: ''
