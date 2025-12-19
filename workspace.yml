@@ -1,0 +1,26 @@
+opencollection: 1.0.0
+info:
+  name: neeew11
+  type: workspace
+
+collections:
+  - name: bruno-testbench
+    path: /Users/vedpr/Desktop/test data/v3.0.0 feature/bruno-testbench
+  - name: Test_  Colln1
+    path: collections/Test_  Colln1
+  - name: Test_data(coln,folder,req)
+    path: collections/Test_data(coln,folder,req)
+  - name: keycloak-client-credentials
+    path: /Users/vedpr/Desktop/test data/untitled folder 14/keycloak-client-credentials
+  - name: Sunshine Conversations API
+    path: collections/Sunshine Conversations API
+  - name: teeest11
+    path: collections/teeest11
+
+specs:
+  - name: ttteeesstt
+    path: apispec/ttteeesstt.yaml
+  - name: OpenAPI_file
+    path: /Users/vedpr/Desktop/test data/OpenAPI_file.yaml
+
+docs: 'test11'
