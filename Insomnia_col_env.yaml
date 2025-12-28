@@ -1,0 +1,85 @@
+type: collection.insomnia.rest/5.0
+name: Insomnia_test
+meta:
+  id: wrk_73d05c3741ad4eea8e7674dece551483
+  created: 1753081081987
+  modified: 1753081081987
+  description: ""
+collection:
+  - url: google.com
+    name: New Request
+    meta:
+      id: req_80f75a0ef52d407599330c2a733200aa
+      created: 1753081128912
+      modified: 1753081229610
+      isPrivate: false
+      description: ""
+      sortKey: -1753081128912
+    method: GET
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"key": "val1"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_220b8bd739f783edd354b39b4918f4579fc26f58
+    created: 1753081081992
+    modified: 1753081150658
+  cookies:
+    - key: AEC
+      value: AVh_V2hKCrAxoq90g5QSk8DvkMZ1EPef8eSOltc9MAsV6Y5_AYjb_cBvYA
+      domain: google.com
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: false
+      creation: 2025-07-21T06:59:10.653Z
+      lastAccessed: 2025-07-21T06:59:10.653Z
+      sameSite: lax
+      id: 9210e3ab-7cbb-47f5-9c7f-8ba0fdf69cc7
+    - key: NID
+      value: 525=e0kmsiMyAGd8euRoWVBo8dn2tmbo3QaJSjgQTICcv3rtTs3VcoZ8I1JSoyHx-v4hC4hu19wM0tRKvG8XkU1YK3m3GfrZobyLaEYkxFT6KEIgep2xnpgaCMycHC7ehMdIEFpt7NWfZq2H4hvfIWX5FyoILifvUdGm-M7ZNAMksJ3HVYNON5D_1FsA9aacqUqniBI1Rh-yb2A0CierHw
+      domain: google.com
+      path: /
+      httpOnly: true
+      hostOnly: false
+      creation: 2025-07-21T06:59:10.657Z
+      lastAccessed: 2025-07-21T06:59:10.657Z
+      id: 1ec4e338-0505-4727-a526-f5302a28c605
+environments:
+  name: Base Environment
+  meta:
+    id: env_220b8bd739f783edd354b39b4918f4579fc26f58
+    created: 1753081081990
+    modified: 1762076744587
+    isPrivate: false
+  data:
+    key1: val1
+    key2: val2
+  subEnvironments:
+    - name: Insomnia_env_test
+      meta:
+        id: env_c3293ec5882148c68a4ead82820807c6
+        created: 1762076981897
+        modified: 1762077035450
+        isPrivate: false
+        sortKey: 1762076981897
+      data:
+        keeey1: vaal1
+        keey2: vaal2
